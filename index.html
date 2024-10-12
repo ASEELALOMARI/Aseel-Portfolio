@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description"
+    content="Aseel Alomari Portfolio, a software developer skilled in web development, graphic design, and programming languages.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Aseel Alomari - Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <a href="#main" class="skip">Skip to main content</a>
+    <!-- Navigation bar-->
+    <nav class="navigation">
+      <ul class="navigation__menu">
+        <li><a class="navigation__items" href="">Home</a></li>
+        <li><a class="navigation__items" href="#about-me">About me</a></li>
+        <li><a class="navigation__items" href="#projects">Projects</a></li>
+        <li><a class="navigation__items" href="#skills">Skills</a></li>
+        <li><a class="navigation__items" href="#contact-me">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!--About Me-->
+    <section id="about-me">
+      <!--Hero-->
+      <header class="hero">
+        <div class="hero__container">
+          <div class="hero__header">
+            <img src="Image/aseellogo.svg" alt="Aseel Alomari's personal logo" class="hero__image" width="200"
+              height="200" />
+            <div class="hero__name">
+              <h1>Aseel Alomari</h1>
+            </div>
+            <div class="hero__title">
+              <p>Software Developer</p>
+            </div>
+          </div>
+          <!--Bio-->
+          <div class="hero__bio">
+            <p>
+              I'm an aspiring Software Developer with a degree in Information Technology.
+              I specialize in building web applications, working with software frameworks,
+              and interface programming. I'm skilled in design tools like Adobe Illustrator and InDesign.
+              A quick learner, I'm eager to join a dynamic team where I can contribute and grow professionally.
+            </p>
+            <a class="hero__link" href="#contact-me" type="button">Contact me</a>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!--Projects-->
+    <section id="projects" class="section">
+      <h2 class="section__title">Projects</h2>
+      <div class="section-grid"> <!---Another block-->
+        <div class="section-grid__item">
+          <div class="card">
+            <img class="card__image" src="Image/library.svg" alt="Library Management Project Screenshot" />
+            <h3 class="card__title">Library Management</h3>
+            <p class="card__description">
+              A web application for managing a library system. Users can add,
+              update, delete, and borrow books from the library. The application
+              uses Django for backend development and React.js for frontend
+              development.
+            </p>
+            <div class="card__icons">
+              <a class="card__icon" href="https://github.com/ASEELALOMARI/sda-3-onsite-library-management-app" target="_blank" title="github link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a class="card__icon" href="https://google" target="_blank" title="web link">
+                <i class="fa-solid fa-globe"></i>
+              </a>
+              <a class="card__icon" href="https://google" target="_blank" title="web link">
+                <i class="fa-solid fa-download"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="section-grid__item">
+          <div class="card">
+            <img class="card__image" src="Image/shcool.svg" alt="Student Management Project Screenshot" />
+            <h3 class="card__title">Student Management</h3>
+            <p class="card__description">
+              A web application designed to efficiently manage a comprehensive student management system.
+              The platform enables administrators and users to seamlessly add, update, delete, and view detailed student
+              information.
+              It provides a user-friendly interface for handling student records, class enrollments, grades, and other
+              academic details.
+              Built with a powerful Django backend, the system ensures robust data management, security, and
+              scalability.
+              The React.js frontend delivers a responsive and dynamic user experience, offering smooth navigation and
+              real-time data updates.
+              This application is ideal for schools, universities, or institutions seeking to streamline their student
+              administration processes.
+            </p>
+            <div class="card__icons">
+              <a class="card__icon" href="https://github.com/ASEELALOMARI" target="_blank" title="github link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a class="card__icon" href="https://google" target="_blank" title="web link">
+                <i class="fa-solid fa-globe"></i>
+              </a>
+              <a class="card__icon" href="https://google" target="_blank" title="web link">
+                <i class="fa-solid fa-download"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="section-grid__item">
+          <div class="card">
+            <h3 class="card__title">Time Management</h3>
+            <p class="card__description">
+              A web application for managing a Tine system. Users can add,
+              update, delete, and borrow books from the library. The application
+              uses Django for backend development and React.js for frontend
+              development.
+            </p>
+            <div class="card__icons">
+              <a class="card__icon" href="https://github.com/ASEELA/Library-System" target="_blank" title="github link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills-->
+    <section id="skills" class="section">
+      <div>
+        <h2 class="section__title">Skills</h2>
+        <div class="section-grid">
+          <!-- Programming Languages -->
+          <div class="section-grid__item card">
+            <h3 class="card__title--medium"><i class="fa-solid fa-code"></i> Programming Languages:</h3>
+            <div class="card__icons">
+              <i class="fa-solid fa-c card__icon--small">++/C#</i>
+              <i class="fa-brands fa-python card__icon--small"> python</i>
+              <i class="fa-brands fa-java card__icon--small"> java</i>
+              <i class="fa-brands fa-js card__icon--small"> js</i>
+              <i class="fa-brands fa-php card__icon--small"> php</i>
+              <i class="fa-brands fa-css3 card__icon--small"> css</i>
+              <i class="fa-brands fa-html5 card__icon--small"> html</i>
+              <i class="fa-solid fa-database card__icon--small"> SQL</i>
+            </div>
+          </div>
+          <div class="section-grid__item card">
+            <!-- Development Tools -->
+            <h3 class="card__title--medium"><i class="fa-solid fa-screwdriver-wrench"></i> Development Tools and Practices:</h3>
+            <div class="card__icons--column">
+              <i class="fa-brands fa-git card__icon--small"> git/github</i>
+              <i class="fa-solid fa-code-pull-request card__icon--small"> APIs Development</i>
+              <i class="fa-brands fa-docker card__icon--small"> Docker</i>
+              <i class="fa-solid fa-magnifying-glass card__icon--small"> Code Testing</i>
+            </div>
+            <!-- Software Frameworks -->
+            <h3 class="card__title--medium"><i class="fa-brands fa-uncharted"></i> Software Frameworks :</h3>
+            <div class="card__icons">
+              <a class="card__icon" href="https://getbootstrap.com" target="_blank">
+                <img src="https://i.ibb.co/ftzgQGs/Bootstrap-logo-svg.png" alt="bootstrap" width="40" height="40" />
+              </a>
+              <a class="card__icon" href="https://www.djangoproject.com/" target="_blank">
+                <img src="https://i.ibb.co/VTJBck8/images.png" alt="django" width="40" height="40" />
+              </a>
+              <a class="card__icon" href="https://dotnet.microsoft.com/" target="_blank">
+                <img src="https://i.ibb.co/pXn55CC/NET-Framework-Logo.png" alt="dotnet" width="40" height="40" />
+
+                <a class="card__icon" href="https://laravel.com/" target="_blank">
+                  <img src="https://i.ibb.co/V9LjzPG/images-1.png" alt="laravel" width="40" height="40" />
+                </a>
+                <a class="card__icon" href="https://reactjs.org/" target="_blank">
+                  <img src="https://i.ibb.co/QK9fRGB/1174949-js-react-js-logo-react-react-native-icon.png" alt="react"
+                    width="40" height="40" />
+                </a>
+            </div>
+          </div>
+          <!-- Graphic Design: -->
+          <div class="section-grid__item card">
+            <strong class="card__title--medium"><i class="fa-solid fa-pen-nib"></i> Graphic Design:</strong>
+            <div class="card__icons">
+              <img class="card__icon" src="https://i.ibb.co/zHgBV19/Adobe-Illustrator-CC-icon.png"
+                alt="Adobe-Illustrator-CC-icon" width="40" height="40" width="40" height="40">
+              <img class="card__icon" src="https://i.ibb.co/2d8C5ty/Adobe-In-Design-CC-icon.png"
+                alt="Adobe-In-Design-CC-icon" width="40" height="40">
+              <img class="card__icon" src="https://i.ibb.co/bRMqmmn/Adobe-Photoshop-CC-icon.png"
+                alt="Adobe-Photoshop-CC-icon" width="40" height="40">
+              <img class="card__icon" src="https://i.ibb.co/h1622Ks/Adobe-XD-CC-icon.png" alt="Adobe-XD-CC-icon"
+                width="40" height="40">
+            </div>
+          </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact me -->
+    <section id="contact-me" class="section">
+      <h2 class="section__title">Contact Me</h2>
+      <div class="section__frame">
+        <div class="card">
+          <div class="section-grid">
+            <div class="section-grid__item">
+
+              <p class="form__label--medium">To reach me, please use the form below:</p>
+              <form action="https://formspree.io/f/xzzbbzrp" method="POST">
+                <div>
+                  <label class="form__label--small" for="name">Name:</label>
+                  <input class="form__input" type="text" name="name" id="name" required />
+                </div>
+                <div>
+                  <label class="form__label--small" for="email">Email:</label>
+                  <input class="form__input" type="email" name="email" id="email" required />
+                </div>
+                <div>
+                  <label class="form__label--small" for="message">Message:</label>
+                  <textarea class="form__input form__textarea" name="message" id="message" required></textarea>
+                </div>
+                <div>
+                  <input class="form__button" type="submit" value="Send" />
+                </div>
+              </form>
+            </div>
+            <div class="section-grid__item map-container">
+              <iframe id="inline-my-Adress" title="My address" class="map-container__frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.1021337387833!2d46.75487692485043!3d24.78407897797922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2efe0ec9cc0b3d%3A0xbe52f7d76719b2eb!2z2KfZhNit2YXYsdin2KEgNTAz!5e1!3m2!1sar!2ssa!4v1728718862607!5m2!1sar!2ssa"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div class="section-grid__item">
+              <p>
+                <strong>Alternatively,</strong> you can reach me via phone or email.
+              </p>
+              <p>
+                <a href="tel:+966580000000" class="contact-link">
+                  <i class="fa-solid fa-phone"></i>
+                  <strong>Phone:</strong> +966 58 0000000
+                </a>
+              </p>
+              <p>
+                <a href="mailto:aseel@aseel.com" class="contact-link">
+                  <i class="fa-solid fa-envelope"></i>
+                  <strong>Email:</strong> aseelalomari027@gamil.com
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">
+      &copy; 2024 by Aseel Alomari &hearts;, All rights reserved.
+    </p>
+    <div class="footer__links">
+      <a href="https://github.com/ASEELALOMARI" target="_blank" title="View on GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/aseel-alomari/" target="_blank" title="Connect on LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://x.com/aseel" target="_blank" title="Follow on Twitter">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
